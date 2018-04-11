@@ -28,7 +28,7 @@ results = df[df['Comments'].str.contains('air quality') | df['Comments'].str.con
            | df['Comments'].str.contains('reduce consumption') | df['Comments'].str.contains('reduce hazard') | df['Comments'].str.contains('reducing waste') | df['Comments'].str.contains('reduction') | df['Comments'].str.contains('reflective coating')
             | df['Comments'].str.contains('renewable energy') | df['Comments'].str.contains('renewable technologies') | df['Comments'].str.contains('resource-efficient') | df['Comments'].str.contains('retention system') | df['Comments'].str.contains('shared parking')
              | df['Comments'].str.contains('soil compaction') | df['Comments'].str.contains('rainwater') | df['Comments'].str.contains('solar') | df['Comments'].str.contains('solar electric') | df['Comments'].str.contains('sustainable')
-              | df['Comments'].str.contains('thermal comfort') | df['Comments'].str.contains('toxic material') | df['Comments'].str.contains('water resistant')]
+             | df['Comments'].str.contains('thermal comfort') | df['Comments'].str.contains('toxic material') | df['Comments'].str.contains('water resistant') | df['Comments'].str.contains('Article 37')]
 df.shape
 results.shape
 results.head()
