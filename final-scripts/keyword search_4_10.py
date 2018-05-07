@@ -3,15 +3,21 @@ import numpy as np
 import openpyxl
 
 #import csv as dataframe for keyword searching
-df = pd.read_csv('/Users/at-h/Desktop/github/ameliat-h.github.io/final project scripts/buildingpermits_clean_4_7_MR.csv', sep=',')
+df = pd.read_csv('/Users/at-h/Desktop/github/ameliat-h.github.io/final project scripts/data/buildingpermits_clean_4_7_MR.csv', sep=',')
+#import csv of search terms as dataframe
+df_keywords = pd.read_csv('/Users/at-h/Desktop/github/ameliat-h.github.io/final project scripts/data/kwords4_16.csv', sep=',')
+#define keyword dataframe's values as variable
+# keywords = df_keywords.values
 
-#identify csv columns
-df.columns
-df.head()
-type(df.columns)
-print(df)
+#searching for match of keyword column in
+# match = df_keywords[df_keywords['keyword'].str.contains('air quality')
 
-#identifying "green" keywords
+#eric's beginning structure:
+# keywords = ['','','']
+
+#defines keywords dataframe as an array
+# keyword_list = ['keywords']
+
 
 results = df[df['Comments'].str.contains('air quality') | df['Comments'].str.contains('renewable') | df['Comments'].str.contains('resilience') | df['Comments'].str.contains('carbon neutral') | df['Comments'].str.contains('smart')
  | df['Comments'].str.contains('smart-grid') | df['Comments'].str.contains('green infrastructure') | df['Comments'].str.contains('adapt') | df['Comments'].str.contains('eco-friendly') | df['Comments'].str.contains('conserve')
@@ -29,6 +35,16 @@ results = df[df['Comments'].str.contains('air quality') | df['Comments'].str.con
             | df['Comments'].str.contains('renewable energy') | df['Comments'].str.contains('renewable technologies') | df['Comments'].str.contains('resource-efficient') | df['Comments'].str.contains('retention system') | df['Comments'].str.contains('shared parking')
              | df['Comments'].str.contains('soil compaction') | df['Comments'].str.contains('rainwater') | df['Comments'].str.contains('solar') | df['Comments'].str.contains('solar electric') | df['Comments'].str.contains('sustainable')
              | df['Comments'].str.contains('thermal comfort') | df['Comments'].str.contains('toxic material') | df['Comments'].str.contains('water resistant') | df['Comments'].str.contains('Article 37')]
+
+# https://stackoverflow.com/questions/47291186/adding-values-to-new-pandas-dataframe-column-based-on-partial-string-contents-of
+# shoes_df['brand'] = shoes_df.Product.str.extract(pat='(Nike|Adidas|Asics)',expand=False)
+
+#for w in the column 'Comments':
+# for w in df['Comments']:
+#     #if w matches
+#     if w = str.contains('keyword_list')
+#     match.append()
+
 df.shape
 results.shape
 results.head()
@@ -38,7 +54,7 @@ results['DESCRIPTION'].unique()
 
 results.head(40)
 
-results[results['Comments'].str.contains('Sweetgreen')]
+# results[results['Comments'].str.contains('Sweetgreen')]
 # #for kicks, trying to see how many rows come up just by searching for "green":
 # green = df['Comments'].str.contains('green')
 #
@@ -49,7 +65,7 @@ results[results['Comments'].str.contains('Sweetgreen')]
 # results.to_csv("bldgpermits_clean_search_results.csv",sep=',',encoding='utf8')
 
 #results to csv was printing wonky formatting in table, but export to xlsx works!km
-writer = pd.ExcelWriter('keyword_results_7_9.xlsx')
+writer = pd.ExcelWriter('keyword_results_4_24.xlsx')
 results.to_excel(writer,'results')
 writer.save()
 

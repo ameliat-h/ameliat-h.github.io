@@ -1,0 +1,178 @@
+keyword,str.contains
+sustainable sites,df['Comments'].str.contains('sustainable sites') |
+site selection,df['Comments'].str.contains('site selection') |
+development density,df['Comments'].str.contains('development density') |
+brownfield,df['Comments'].str.contains('brownfield') |
+alternative transport,df['Comments'].str.contains('alternative transport') |
+low emitting,df['Comments'].str.contains('low emitting') |
+alternative parking,df['Comments'].str.contains('alternative parking') |
+stormwater quantity,df['Comments'].str.contains('stormwater quantity') |
+stormwater quality,df['Comments'].str.contains('stormwater quality') |
+heat island,df['Comments'].str.contains('heat island') |
+waste water management,df['Comments'].str.contains('waste water management') |
+light pollution,df['Comments'].str.contains('light pollution') |
+water efficiency,df['Comments'].str.contains('water efficiency') |
+water efficient landscaping,df['Comments'].str.contains('water efficient landscaping') |
+innovative waste water,df['Comments'].str.contains('innovative waste water') |
+water use reduction,df['Comments'].str.contains('water use reduction') |
+energy atmosphere,df['Comments'].str.contains('energy atmosphere') |
+optimize,df['Comments'].str.contains('optimize') |
+enhanced refrigeration,df['Comments'].str.contains('enhanced refrigeration') |
+green power,df['Comments'].str.contains('green power') |
+maintain existing walls,df['Comments'].str.contains('maintain existing walls') |
+building reuse,df['Comments'].str.contains('building reuse') |
+construction waste,df['Comments'].str.contains('construction waste') |
+materials reuse,df['Comments'].str.contains('materials reuse') |
+recycled content,df['Comments'].str.contains('recycled content') |
+rapidly renewable,df['Comments'].str.contains('rapidly renewable') |
+certified wood,df['Comments'].str.contains('certified wood') |
+indoor environment,df['Comments'].str.contains('indoor environment') |
+outdoor air,df['Comments'].str.contains('outdoor air') |
+increased vent,df['Comments'].str.contains('increased vent') |
+low emitting adhesives,df['Comments'].str.contains('low emitting adhesives') |
+low emitting paints,df['Comments'].str.contains('low emitting paints') |
+low emitting flooring,df['Comments'].str.contains('low emitting flooring') |
+low emitting composite wood,df['Comments'].str.contains('low emitting composite wood') |
+composite wood,df['Comments'].str.contains('composite wood') |
+controlability lighting,df['Comments'].str.contains('controlability lighting') |
+controlability thermal,df['Comments'].str.contains('controlability thermal') |
+thermal comfort design,df['Comments'].str.contains('thermal comfort design') |
+thermal comfort verification,df['Comments'].str.contains('thermal comfort verification') |
+innovation and design,df['Comments'].str.contains('innovation and design') |
+air quality,df['Comments'].str.contains('air quality') |
+alternative energy,df['Comments'].str.contains('alternative energy') |
+carbon neutral,df['Comments'].str.contains('carbon neutral') |
+clean water,df['Comments'].str.contains('clean water') |
+conserve energy,df['Comments'].str.contains('conserve energy') |
+cradle to cradle,df['Comments'].str.contains('cradle to cradle') |
+daylight,df['Comments'].str.contains('daylight') |
+eco friendly,df['Comments'].str.contains('eco friendly') |
+efficiency,df['Comments'].str.contains('efficiency') |
+efficient,df['Comments'].str.contains('efficient') |
+energy efficiency,df['Comments'].str.contains('energy efficiency') |
+environment,df['Comments'].str.contains('environment') |
+environmental,df['Comments'].str.contains('environmental') |
+environmental quality,df['Comments'].str.contains('environmental quality') |
+geothermal,df['Comments'].str.contains('geothermal') |
+green,df['Comments'].str.contains('green') |
+green architecture,df['Comments'].str.contains('green architecture') |
+green infrastructure,df['Comments'].str.contains('green infrastructure') |
+greywater,df['Comments'].str.contains('greywater') |
+harvest,df['Comments'].str.contains('harvest') |
+high-performance,df['Comments'].str.contains('high-performance') |
+human health,df['Comments'].str.contains('human health') |
+increase ventilation,df['Comments'].str.contains('increase ventilation') |
+inexpensive material,df['Comments'].str.contains('inexpensive material') |
+integrated pest management,df['Comments'].str.contains('integrated pest management') |
+isolative,df['Comments'].str.contains('isolative') |
+life cycle,df['Comments'].str.contains('life cycle') |
+light pollution,df['Comments'].str.contains('light pollution') |
+lighting control,df['Comments'].str.contains('lighting control') |
+local,df['Comments'].str.contains('local') |
+low emitting ,df['Comments'].str.contains('low emitting') |
+Low energy usage,df['Comments'].str.contains('Low energy usage') |
+low water usage,df['Comments'].str.contains('low water usage') |
+native,df['Comments'].str.contains('native') |
+natural,df['Comments'].str.contains('natural') |
+natural ventilation,df['Comments'].str.contains('natural ventilation') |
+noise pollution,df['Comments'].str.contains('noise pollution') |
+permeable pavement,df['Comments'].str.contains('permeable pavement') |
+pest ,df['Comments'].str.contains('pest') |
+photovoltaic,df['Comments'].str.contains('photovoltaic') |
+public transportation,df['Comments'].str.contains('public transportation') |
+rainwater,df['Comments'].str.contains('rainwater') |
+rainwater retention,df['Comments'].str.contains('rainwater retention') |
+reclaimed,df['Comments'].str.contains('reclaimed') |
+recycled,df['Comments'].str.contains('recycled') |
+recycling materials,df['Comments'].str.contains('recycling materials') |
+reduce consumption,df['Comments'].str.contains('reduce consumption') |
+reduce hazard,df['Comments'].str.contains('reduce hazard') |
+reduce pollution,df['Comments'].str.contains('reduce pollution') |
+Reducing waste,df['Comments'].str.contains('Reducing waste') |
+reduction,df['Comments'].str.contains('reduction') |
+reflective coating,df['Comments'].str.contains('reflective coating') |
+renewable,df['Comments'].str.contains('renewable') |
+renewable energy,df['Comments'].str.contains('renewable energy') |
+renewable technologies,df['Comments'].str.contains('renewable technologies') |
+renewal,df['Comments'].str.contains('renewal') |
+resilience,df['Comments'].str.contains('resilience') |
+resilient,df['Comments'].str.contains('resilient') |
+resource-efficient,df['Comments'].str.contains('resource-efficient') |
+responsible materials,df['Comments'].str.contains('responsible materials') |
+retention system,df['Comments'].str.contains('retention system') |
+reuse,df['Comments'].str.contains('reuse') |
+safe water,df['Comments'].str.contains('safe water') |
+shared parking,df['Comments'].str.contains('shared parking') |
+skylight,df['Comments'].str.contains('skylight') |
+smart,df['Comments'].str.contains('smart') |
+smart-grid,df['Comments'].str.contains('smart-grid') |
+soil compaction,df['Comments'].str.contains('soil compaction') |
+solar,df['Comments'].str.contains('solar') |
+solar electric,df['Comments'].str.contains('solar electric') |
+solar thermal,df['Comments'].str.contains('solar thermal') |
+sustainability,df['Comments'].str.contains('sustainability') |
+sustainable,df['Comments'].str.contains('sustainable') |
+thermal comfort,df['Comments'].str.contains('thermal comfort') |
+thermal heating,df['Comments'].str.contains('thermal heating') |
+toxic material,df['Comments'].str.contains('toxic material') |
+waste reduction,df['Comments'].str.contains('waste reduction') |
+water resistant,df['Comments'].str.contains('water resistant') |
+zero net energy,df['Comments'].str.contains('zero net energy') |
+zero-waste,df['Comments'].str.contains('zero-waste') |
+low-emitting materials,df['Comments'].str.contains('low-emitting materials') |
+construction indoor air quality management plan,df['Comments'].str.contains('construction indoor air quality management plan') |
+indoor air quality assessment,df['Comments'].str.contains('indoor air quality assessment') |
+thermal comfort,df['Comments'].str.contains('thermal comfort') |
+interior lighting,df['Comments'].str.contains('interior lighting') |
+daylight,df['Comments'].str.contains('daylight') |
+quality views,df['Comments'].str.contains('quality views') |
+acoustic performance,df['Comments'].str.contains('acoustic performance') |
+air quality management plan,df['Comments'].str.contains('air quality management plan') |
+building life-cycle impact reduction,df['Comments'].str.contains('building life-cycle impact reduction') |
+sensitive land protection,df['Comments'].str.contains('sensitive land protection') |
+high priority site,df['Comments'].str.contains('high priority site') |
+surrounding density and diverse uses,df['Comments'].str.contains('surrounding density and diverse uses') |
+access to quality transit,df['Comments'].str.contains('access to quality transit') |
+bicycle facilities,df['Comments'].str.contains('bicycle facilities') |
+reduced parking footprint,df['Comments'].str.contains('reduced parking footprint') |
+green vehicles,df['Comments'].str.contains('green vehicles') |
+outdoor water use reduction,df['Comments'].str.contains('outdoor water use reduction') |
+indoor water use reduction,df['Comments'].str.contains('indoor water use reduction') |
+cooling tower water use,df['Comments'].str.contains('cooling tower water use') |
+water metering,df['Comments'].str.contains('water metering') |
+optimize energy performance,df['Comments'].str.contains('optimize energy performance') |
+advanced energy metering,df['Comments'].str.contains('advanced energy metering') |
+demand response,df['Comments'].str.contains('demand response') |
+renewable energy production,df['Comments'].str.contains('renewable energy production') |
+enhanced refrigerant management,df['Comments'].str.contains('enhanced refrigerant management') |
+minimum energy performance,df['Comments'].str.contains('minimum energy performance') |
+building-level energy metering,df['Comments'].str.contains('building-level energy metering') |
+optimize energy performance,df['Comments'].str.contains('optimize energy performance') |
+advanced energy metering,df['Comments'].str.contains('advanced energy metering') |
+renewable energy production,df['Comments'].str.contains('renewable energy production') |
+indoor water use reduction,df['Comments'].str.contains('indoor water use reduction') |
+outdoor water use reduction,df['Comments'].str.contains('outdoor water use reduction') |
+building-level water metering,df['Comments'].str.contains('building-level water metering') |
+heat island reduction,df['Comments'].str.contains('heat island reduction') |
+light pollution reduction,df['Comments'].str.contains('light pollution reduction') |
+rainwater management,df['Comments'].str.contains('rainwater management') |
+protect or restore habitat,df['Comments'].str.contains('protect or restore habitat') |
+reduced parking footprint,df['Comments'].str.contains('reduced parking footprint') |
+bicycle facilities,df['Comments'].str.contains('bicycle facilities') |
+access to quality transit,df['Comments'].str.contains('access to quality transit') |
+optimize energy,df['Comments'].str.contains('optimize energy') |
+collection of recyclables,df['Comments'].str.contains('collection of recyclables') |
+low-emitting materials,df['Comments'].str.contains('low-emitting materials') |
+rainwater management,df['Comments'].str.contains('rainwater management') |
+regional materials,df['Comments'].str.contains('regional materials') |
+certified wood,df['Comments'].str.contains('certified wood') |
+recycled materials,df['Comments'].str.contains('recycled materials') |
+material reuse,df['Comments'].str.contains('material reuse') |
+increased ventilation,df['Comments'].str.contains('increased ventilation') |
+low-emitting,df['Comments'].str.contains('low-emitting') |
+pollutant source control,df['Comments'].str.contains('pollutant source control') |
+brownfield redevelopment,df['Comments'].str.contains('brownfield redevelopment') |
+public transportation access,df['Comments'].str.contains('public transportation access') |
+low-emitting and fuel-efficient vehicles,df['Comments'].str.contains('low-emitting and fuel-efficient vehicles') |
+protect or restore habitat,df['Comments'].str.contains('protect or restore habitat') |
+innovative wastewater technologies,df['Comments'].str.contains('innovative wastewater technologies') |
